@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+
+	line-height: 1.4;
+
+	font-size: 100%;
+	font-weight: inherit;
+}
+
+html {
+    text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+html, body, div, h1, h2, h3, h4, p, time,
+article, section, time, nav {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+button {
+	display: block;
+
+	padding: 0;
+	border: none;
+
+	background: none;
+	outline: none;
+
+	color: inherit;
+	font: inherit;
+
+	cursor: pointer;
+}
